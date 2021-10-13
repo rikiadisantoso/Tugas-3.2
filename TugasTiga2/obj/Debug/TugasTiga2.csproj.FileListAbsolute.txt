@@ -1,0 +1,10 @@
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\bin\Debug\TugasTiga2.exe.config
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\bin\Debug\TugasTiga2.exe
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\bin\Debug\TugasTiga2.pdb
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\obj\Debug\TugasTiga2.csprojAssemblyReference.cache
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\obj\Debug\TugasTiga2.frmTugaTiga2.resources
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\obj\Debug\TugasTiga2.Properties.Resources.resources
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\obj\Debug\TugasTiga2.csproj.GenerateResource.cache
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\obj\Debug\TugasTiga2.csproj.CoreCompileInputs.cache
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\obj\Debug\TugasTiga2.exe
+C:\Users\HEWLETT PACKARD\Documents\kuliah amikom\semester 3\pemrograman lanjut\pertemuan 3\TugasTiga2\TugasTiga2\obj\Debug\TugasTiga2.pdb
