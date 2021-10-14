@@ -19,11 +19,11 @@ namespace TugasTiga2
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            var nama = txtNama.Text;
+            var Nama = txtNama.Text;
             var pendidikan = cmbPendidikan.Text;
             var pekerjaan = lstPekerjaan.Text;
 
-            txtPesan1.Text = string.Format("Halo {0}", nama);
+            txtPesan1.Text = string.Format("Halo {0}", Nama);
             txtPesan2.Text = string.Format("Pendidikan anda {0}", pendidikan);
             txtPesan3.Text = string.Format("anda seorang {0}, hebat !!!!", pekerjaan);
         }

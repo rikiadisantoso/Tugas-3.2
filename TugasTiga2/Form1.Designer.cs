@@ -30,16 +30,16 @@ namespace TugasTiga2
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.txtNama = new System.Windows.Forms.Label();
+            this.lblNama = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
+            this.cmbPendidikan = new System.Windows.Forms.ComboBox();
+            this.lstPekerjaan = new System.Windows.Forms.ListBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.txtPesan1 = new System.Windows.Forms.TextBox();
             this.txtPesan2 = new System.Windows.Forms.TextBox();
             this.txtPesan3 = new System.Windows.Forms.TextBox();
-            this.cmbPendidikan = new System.Windows.Forms.ComboBox();
-            this.lstPekerjaan = new System.Windows.Forms.ListBox();
             this.btnOk = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -50,10 +50,10 @@ namespace TugasTiga2
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.85714F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 81.14286F));
-            this.tableLayoutPanel1.Controls.Add(this.txtNama, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.lblNama, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.txtNama, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.cmbPendidikan, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.lstPekerjaan, 1, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -66,33 +66,14 @@ namespace TugasTiga2
             this.tableLayoutPanel1.Size = new System.Drawing.Size(547, 192);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // tableLayoutPanel2
+            // lblNama
             // 
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Controls.Add(this.txtPesan1, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.txtPesan2, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.txtPesan3, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.btnOk, 0, 3);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 203);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 4;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(543, 206);
-            this.tableLayoutPanel2.TabIndex = 1;
-            // 
-            // txtNama
-            // 
-            this.txtNama.AutoSize = true;
-            this.txtNama.Location = new System.Drawing.Point(3, 0);
-            this.txtNama.Name = "txtNama";
-            this.txtNama.Size = new System.Drawing.Size(45, 17);
-            this.txtNama.TabIndex = 0;
-            this.txtNama.Text = "Nama";
+            this.lblNama.AutoSize = true;
+            this.lblNama.Location = new System.Drawing.Point(3, 0);
+            this.lblNama.Name = "lblNama";
+            this.lblNama.Size = new System.Drawing.Size(45, 17);
+            this.lblNama.TabIndex = 0;
+            this.lblNama.Text = "Nama";
             // 
             // label2
             // 
@@ -112,36 +93,12 @@ namespace TugasTiga2
             this.label3.TabIndex = 0;
             this.label3.Text = "Pekerjaan";
             // 
-            // textBox1
+            // txtNama
             // 
-            this.textBox1.Location = new System.Drawing.Point(106, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(429, 22);
-            this.textBox1.TabIndex = 1;
-            // 
-            // txtPesan1
-            // 
-            this.txtPesan1.Enabled = false;
-            this.txtPesan1.Location = new System.Drawing.Point(3, 3);
-            this.txtPesan1.Name = "txtPesan1";
-            this.txtPesan1.Size = new System.Drawing.Size(529, 22);
-            this.txtPesan1.TabIndex = 1;
-            // 
-            // txtPesan2
-            // 
-            this.txtPesan2.Enabled = false;
-            this.txtPesan2.Location = new System.Drawing.Point(3, 54);
-            this.txtPesan2.Name = "txtPesan2";
-            this.txtPesan2.Size = new System.Drawing.Size(529, 22);
-            this.txtPesan2.TabIndex = 1;
-            // 
-            // txtPesan3
-            // 
-            this.txtPesan3.Enabled = false;
-            this.txtPesan3.Location = new System.Drawing.Point(3, 105);
-            this.txtPesan3.Name = "txtPesan3";
-            this.txtPesan3.Size = new System.Drawing.Size(529, 22);
-            this.txtPesan3.TabIndex = 1;
+            this.txtNama.Location = new System.Drawing.Point(106, 3);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(429, 22);
+            this.txtNama.TabIndex = 1;
             // 
             // cmbPendidikan
             // 
@@ -172,6 +129,49 @@ namespace TugasTiga2
             this.lstPekerjaan.Name = "lstPekerjaan";
             this.lstPekerjaan.Size = new System.Drawing.Size(438, 100);
             this.lstPekerjaan.TabIndex = 3;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Controls.Add(this.txtPesan1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.txtPesan2, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txtPesan3, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.btnOk, 0, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 203);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 4;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(543, 206);
+            this.tableLayoutPanel2.TabIndex = 1;
+            // 
+            // txtPesan1
+            // 
+            this.txtPesan1.Enabled = false;
+            this.txtPesan1.Location = new System.Drawing.Point(3, 3);
+            this.txtPesan1.Name = "txtPesan1";
+            this.txtPesan1.Size = new System.Drawing.Size(529, 22);
+            this.txtPesan1.TabIndex = 1;
+            // 
+            // txtPesan2
+            // 
+            this.txtPesan2.Enabled = false;
+            this.txtPesan2.Location = new System.Drawing.Point(3, 54);
+            this.txtPesan2.Name = "txtPesan2";
+            this.txtPesan2.Size = new System.Drawing.Size(529, 22);
+            this.txtPesan2.TabIndex = 1;
+            // 
+            // txtPesan3
+            // 
+            this.txtPesan3.Enabled = false;
+            this.txtPesan3.Location = new System.Drawing.Point(3, 105);
+            this.txtPesan3.Name = "txtPesan3";
+            this.txtPesan3.Size = new System.Drawing.Size(529, 22);
+            this.txtPesan3.TabIndex = 1;
             // 
             // btnOk
             // 
@@ -204,10 +204,10 @@ namespace TugasTiga2
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label txtNama;
+        private System.Windows.Forms.Label lblNama;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNama;
         private System.Windows.Forms.ComboBox cmbPendidikan;
         private System.Windows.Forms.ListBox lstPekerjaan;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
